@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo apt install traceroute
-traceroute 216.81.59.173
+telnet towel.blinkenlights.nl
