@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -t$'\t' -k3 -nr | cut -f1 -d$'\t' | head -n 11 
+sort -t$'\t' -k4 -nr | cut -f1 -d$'\t' | head -n 11 
