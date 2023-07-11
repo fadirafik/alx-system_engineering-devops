@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list | cut -c 1 | tr -d '\n' | sed 's/$/\n/'
+cat $1 | cut -c 1 | tr -d '\n' 
