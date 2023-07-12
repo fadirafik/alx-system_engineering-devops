@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER=$((WATER+STIR)) | echo "$WATER"
+WATER=$((water+stir.)) | echo "$WATER"
