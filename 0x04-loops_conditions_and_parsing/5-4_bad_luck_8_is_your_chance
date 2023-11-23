@@ -2,6 +2,7 @@
 # prints best school 10 times
 
 i=0
+
 while [ $i -lt 10 ]
 do
 if [ $i -eq 3 ]
