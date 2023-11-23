@@ -7,12 +7,10 @@ echo "$i"
 if [ $i -eq 4 ]
 then
 echo "bad luck from China"
-fi
-if [ $i -eq 9 ]
+elif [ $i -eq 9 ]
 then
 echo "bad luck from Japan"
-fi
-if [ $i -eq 17 ]
+elif [ $i -eq 17 ]
 then
 echo "bad luck from Italy"
 fi
