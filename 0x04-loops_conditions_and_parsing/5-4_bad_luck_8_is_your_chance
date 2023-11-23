@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 # prints best school 10 times
 
-i=0
+count=0
 
-while [ $i -lt 10 ]
+while [ $count -lt 10 ]
 do
-if [ $i -eq 3 ]
-then
-echo "Bad luck"
-elif [ $i -eq 7 ]
-then
-echo "good luck"
-else
-echo "Best School"
-fi
-(( i++ ))
+  if [ $count -eq 3 ]
+  then
+    echo "bad luck"
+  elif [ $count -eq 7 ]
+  then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi
+  (( count++ ))
 done
