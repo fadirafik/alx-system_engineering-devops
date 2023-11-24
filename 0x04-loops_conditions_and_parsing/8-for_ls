@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# prints the list of files without
+#first part
+
+fil=$(ls)
+
+for i in $fil
+do 
+echo "$i" | cut -d '-' -f2
+done
